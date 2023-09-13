@@ -3,7 +3,7 @@
 #include <math.h>
 
 int main(int argc, char *argv[]) {
-	/*float a,b,tong,hieu,tich,thuong;
+	float a,b,tong,hieu,tich,thuong;
 	printf("Nhap so a = ");
 	scanf("%f", &a);
 	printf("Nhap so b = ");
@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
 	scanf("%02d",&thang);
 	printf("Nhap nam: ");
 	scanf("%04d",&nam);
-	printf("Ngay thang nam la: %02d/%02d/%04d",ngay,thang,nam);*/
+	printf("Ngay thang nam la: %02d/%02d/%04d",ngay,thang,nam);
 	char rollno[16],name[50],address[100];
 	int age;
 	fflush(stdin);fflush(stdout);
@@ -43,6 +43,7 @@ int main(int argc, char *argv[]) {
 	fflush(stdin);fflush(stdout);
 	printf("Nhap Dia chi: ");
 	scanf("%s",&address);
+	address = gets();
 	printf("\n=================================================");
 	printf("\n|Ten    |Tuoi    |MaSV       |Dia chi           |");
 	printf("\n=================================================");
