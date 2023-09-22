@@ -62,15 +62,15 @@ int main(int argc, char *argv[]) {
 //				printf("*\n");
 //		}printf("\n");
 //	}
-	int n,i;
-	printf("\nNhap n: ");
-	scanf("%d",&n);
+//	int n,i;
+//	printf("\nNhap n: ");
+//	scanf("%d",&n);
 //	printf("\nCac uoc chung cua %d la: ",n);
-	for(i=1;i<=n;i++){
-		if(n % i == 0){
-			printf("3%d", i);
-		}
-	}
+//	for(i=1;i<=n;i++){
+//		if(n % i == 0){
+//			printf("%d ", i);
+//		}
+//	}
 //	int i,m;
 //	printf("\nNhap m: ");
 //	scanf("%d",&m);
@@ -85,7 +85,7 @@ int main(int argc, char *argv[]) {
 //	s= 0;
 //	s = N*(N+1)/2;
 //	printf("\nTong S = %d",s); 
-	
+		
 	
 	return 0;
 }
