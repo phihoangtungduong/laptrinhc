@@ -1,6 +1,6 @@
 [Project]
-FileName=BT3268.dev
-Name=BT3268
+FileName=lesson8.dev
+Name=lesson8
 Type=1
 Ver=2
 ObjFiles=
@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=3
+UnitCount=1
 
 [VersionInfo]
 Major=1
@@ -52,26 +52,6 @@ SyncProduct=1
 
 [Unit1]
 FileName=main.c
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit2]
-FileName=bt.h
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit3]
-FileName=bt.c
 CompileCpp=0
 Folder=
 Compile=1

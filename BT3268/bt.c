@@ -23,7 +23,7 @@ void factorial(){
 	for(i=1;i<=N;i++){
 		giaithua *= i;
 	}
-	printf("\nGiai thua cua %d! = %d",N,giaithua);
+	printf("\nGiai thua cua %d! = %d\n",N,giaithua);
 }
 
 void sum(){
@@ -31,7 +31,7 @@ void sum(){
 	for(i=1;i<=N;i++) {
 		s += i;
 	}
-	printf("\nTong 1 -> %d: %d", N, s);
+	printf("\nTong 1 -> %d = %d\n", N, s);
 }
 
 void compare(){
@@ -44,9 +44,11 @@ void compare(){
 		s += i;
 	}
 	if(giaithua < s){
-		printf("\nTong N! < Tong 1 -> N!");
+		printf("\nTong N! < Tong 1 -> N!\n");
+	}else if (giaithua = s) {
+		printf("\nTong N! = Tong 1 -> N\n");
 	}else {
-		printf("\nTong N! > Tong 1 -> N");
+		printf("\nTong N! > Tong 1 -> N\n");
 	}
 }
 
