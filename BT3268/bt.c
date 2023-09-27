@@ -45,7 +45,7 @@ void compare(){
 	}
 	if(giaithua < s){
 		printf("\nTong N! < Tong 1 -> N!\n");
-	}else if (giaithua = s) {
+	}else if (giaithua == s) {
 		printf("\nTong N! = Tong 1 -> N\n");
 	}else {
 		printf("\nTong N! > Tong 1 -> N\n");
